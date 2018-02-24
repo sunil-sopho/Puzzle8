@@ -10,7 +10,7 @@ horizontally or vertically. Here may be one starting configuration of an 8-puzzl
 | 4 | 6 | 8 |
  -----------
 | 7 | 5 | - |
-
+ -----------
 
 We will use the word “state” to refer to each configuration of the puzzle. We can call the configuration above as the
 “start state”. Typically, our goal is to reach this configuration (goal state)
@@ -20,6 +20,7 @@ We will use the word “state” to refer to each configuration of the puzzle. W
 | 4 | 5 | 6 |
  -----------
 | 7 | 8 | - |
+ -----------
 
 
 One possible solution to reach the target in this example is by moving 8 down, 6 right, 5 up and then 8 left. The task
